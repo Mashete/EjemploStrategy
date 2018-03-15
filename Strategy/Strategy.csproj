@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Concentrador.cs" />
+    <Compile Include="Clases\Estrategias\ConfiguracionInternacional.cs" />
+    <Compile Include="Clases\Estrategias\ConfiguracionNacional.cs" />
+    <Compile Include="Clases\Estrategias\Contexto.cs" />
+    <Compile Include="Clases\Estrategias\IConffiguracion.cs" />
+    <Compile Include="Clases\Paquete.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
