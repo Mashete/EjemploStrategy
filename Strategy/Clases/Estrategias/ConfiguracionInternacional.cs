@@ -11,7 +11,7 @@ namespace Strategy.Clases.Estrategias
     {
         public string ObtenerDescripcion(string nombre)
         {
-            return string.Concat("your product is", nombre);
+            return string.Concat("Your product is ", nombre);
         }
 
         public string ObtenerMontoTotal(float monto, float impuestos)
